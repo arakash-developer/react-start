@@ -1,6 +1,6 @@
 {
   "name": "@akash.dev/react-start",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "bin": "./bin/cli.js",
   "scripts": {
