@@ -1,0 +1,12 @@
+{
+  "name": "@akash.dev/react-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@akash.dev",
+  "license": "ISC",
+  "description": ""
+}
