@@ -10,9 +10,7 @@ const runCommand = command =>{
     return true;
 }
 const repoName = process.argv[2];
-const repoName1 = process.argv[1];
-console.log(`repoName - ${repoName}`);
-console.log(`repoName1 - ${repoName1}`);
+console.log(repoName);
 const gitCheckoutCommand = `git clone --dept 1 https://github.com/arakash-developer/reactjs-start ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 // console.log(`Cloning the repository with name ${repoName}`);
