@@ -11,7 +11,7 @@ const runCommand = command =>{
 }
 const repoName = process.argv[2];
 console.log(repoName);
-const gitCheckoutCommand = `git clone --dept 1 https://github.com/arakash-developer/reactjs-start ${repoName}`;
+const gitCheckoutCommand = `git clone --dept 1 https://github.com/arakash-developer/react-startjs ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 // console.log(`Cloning the repository with name ${repoName}`);
 console.log(`Installing Packages for ${repoName} @akash.dev`);
@@ -22,4 +22,5 @@ const installedDeps = runCommand(installDepsCommand);
 if(!installedDeps) process.exit(-1); 
 console.log(`Congratulation!! You are Ready @akash.dev`);
 console.log(`cd ${repoName} && npm run dev or npm start @akash.dev`);
+
 
